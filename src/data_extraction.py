@@ -56,10 +56,10 @@ from datetime import datetime
 # hardcoded key would be exposed to anyone who sees it. Set it before running:
 #   export DATABENTO_API_KEY="db-..."
 # or place it in a local .env file (see .env.example) and load it with
-# python-dotenv (pip install python-dotenv) by uncommenting the two lines below.
-#
-# from dotenv import load_dotenv
-# load_dotenv()
+# python-dotenv (pip install python-dotenv).
+
+from dotenv import load_dotenv
+load_dotenv()
 
 API_KEY = os.environ.get("DATABENTO_API_KEY")
 if not API_KEY:
