@@ -1,0 +1,8 @@
+pandas
+numpy
+torch
+scipy
+matplotlib
+statsmodels
+databento
+python-dotenv
