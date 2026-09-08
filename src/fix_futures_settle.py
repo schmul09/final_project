@@ -21,6 +21,9 @@ import pandas as pd
 import numpy as np
 from scipy.stats import norm
 from scipy.optimize import brentq
+from dotenv import load_dotenv
+
+load_dotenv()
 
 API_KEY = os.environ.get("DATABENTO_API_KEY")
 if not API_KEY:
